@@ -1,0 +1,1 @@
+docker run -v $(pwd)/models:/models llamacpp-main -m /models/65B/ggml-model-q4_0.bin -p "$PROMPT" -t 8 -n 512
